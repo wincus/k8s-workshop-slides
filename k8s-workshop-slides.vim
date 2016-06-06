@@ -3,6 +3,6 @@
 source config.sh
 
 # update the deployment object
-kubectl delete pods -l name=update-demo
+kubectl delete deployment demo-deployment
 
 exit 0
