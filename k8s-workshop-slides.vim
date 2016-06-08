@@ -2,13 +2,10 @@
 
 source config.sh
 
-# kubectl is the kube admin tool you will use
-# to manage the k8s cluster
-# talks to the API only
+# describe gives a more detailed 
+# information about the resource
+# also check the use of labels
 
-kubectl get nodes    # retrieves worker nodes
-kubectl get pods     # retrieves all running pods
-kubectl get services # retrives services
-kubectl get namespaces # .... and namespaces
+kubectl describe service -l provider=kubernetes
 
 exit 0
