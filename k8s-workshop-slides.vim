@@ -2,7 +2,7 @@
 
 source config.sh
 
-# slide en blanco #1
+# slide en blanco #2
 
 
 exit 0
