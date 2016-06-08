@@ -13,8 +13,8 @@ spec:
   strategy:
     type: RollingUpdate
     rollingUpdate:
-      maxUnavailable: '100%'
-      maxSurge: '100%'
+      maxUnavailable: '50%'
+      maxSurge: '50%'
   template:
     metadata:
       labels:
@@ -22,7 +22,7 @@ spec:
         app: web
     spec:
       containers:
-      - image: gcr.io/google_containers/update-demo:nautilus
+      - image: gcr.io/google_containers/update-demo:kitten
         imagePullPolicy: IfNotPresent
         name: update-demo
         ports:
