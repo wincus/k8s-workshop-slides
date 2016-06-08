@@ -1,8 +1,10 @@
 # kubernetes-workshop-slides
 
+Slides used at Nerdearla 2016
+
 ## Requirements
 
-  You need to vagrant
+  You need to have vagrant installed locally
 
 ## How to use
   1. Install https://github.com/gelisam/git-slides locally 
