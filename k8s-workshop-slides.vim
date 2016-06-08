@@ -2,8 +2,7 @@
 
 source config.sh
 
-# bring up the vm .... 
-
-cd ${COREOS_KUBERNETES_PATH} && vagrant up
+# check the kubernetes agent status
+cd ${COREOS_KUBERNETES_PATH} && vagrant ssh -c "sudo  systemctl status kubelet.service"
 
 exit 0
