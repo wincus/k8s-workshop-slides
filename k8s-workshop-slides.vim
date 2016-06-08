@@ -9,7 +9,7 @@ kind: Deployment
 metadata:
   name: demo-deployment
 spec:
-  replicas: 16
+  replicas: 25
   strategy:
     type: RollingUpdate
     rollingUpdate:

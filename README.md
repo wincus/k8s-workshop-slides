@@ -1,5 +1,9 @@
 # kubernetes-workshop-slides
 
+## Requirements
+
+  You need to vagrant
+
 ## How to use
   1. Install https://github.com/gelisam/git-slides locally 
   1. Checkout https://github.com/kubernetes/kubernetes.github.io locally
