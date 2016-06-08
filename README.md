@@ -10,7 +10,7 @@ Slides used at Nerdearla 2016
   1. Install https://github.com/gelisam/git-slides locally 
   1. Checkout https://github.com/kubernetes/kubernetes.github.io locally
   1. Checkout https://github.com/coreos/coreos-kubernetes locally
-  1. Fill the config.sh file with the paths
+  1. Fill the config.sh file with the paths and commit the change locally
   1. Add to your `.vimrc` file so the local `.vimrc` will be auto loaded
 
 ```vim
